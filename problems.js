@@ -77,3 +77,17 @@ console.log(max);
 console.log(uniqueArr);
  //output will be [1,2,3,4]
 
+
+//Problem 6 : Sum of All Numbers in an Array
+
+
+  let arr2 = [1, 2, 3, 4];
+  let sum = 0;
+
+  for (let i = 0; i < arr2.length; i++) {
+  sum = sum + arr2[i];
+ }
+
+ console.log(sum); 
+  // output will be 10
+
