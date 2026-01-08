@@ -45,7 +45,21 @@ console.log(count);
  } 
    else {
   console.log(false);
-}
+ }
 
+
+ // Problem 4:  Find the Maximum Number
+
+ let numbers = [5, 1, 9, 3];
+ let max = numbers[0];
+
+ for (let i = 1; i < numbers.length; i++) {
+   if (numbers[i] > max) {
+    max = numbers[i];
+   }
+ }
+
+console.log(max); 
+// Output will  be  9
 
 
