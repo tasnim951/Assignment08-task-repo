@@ -91,3 +91,18 @@ console.log(uniqueArr);
  console.log(sum); 
   // output will be 10
 
+  //Problem 7:Find Even Numbers in an Array
+
+   let arr3 = [1, 2, 3, 4, 5, 6];
+   let evenNumbers = [];
+
+  for (let i = 0; i < arr3.length; i++) {
+    if (arr3[i] % 2 === 0) {
+    evenNumbers.push(arr3[i]);
+    }
+  }
+
+ console.log(evenNumbers);
+  // Output will be :[2,4,6]
+
+
