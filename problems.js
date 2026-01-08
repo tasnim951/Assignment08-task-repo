@@ -9,8 +9,8 @@
   reversed = reversed + str1[i];
  }
 
-console.log(reversed); 
-//Output will be : olleh
+ console.log(reversed); 
+ //Output will be : olleh
 
  
 
@@ -25,10 +25,10 @@ console.log(reversed);
   if (vowels.includes(ch)) {
     count++;
   }
-}
+ }
 
-console.log(count); 
-//Output will be 3
+ console.log(count); 
+ //Output will be 3
 
    
 // Problem 3: Check for Palindrome
@@ -62,4 +62,18 @@ console.log(count);
 console.log(max); 
 // Output will  be  9
 
+
+// Problem 5: Remove Duplicates from an array
+
+   let arr1 = [1, 2, 2, 3, 4, 4];
+   let uniqueArr = [];
+
+   for (let i = 0; i < arr1.length; i++) {
+    if (!uniqueArr.includes(arr1[i])) {
+    uniqueArr.push(arr1[i]);
+   }
+ }
+
+console.log(uniqueArr);
+ //output will be [1,2,3,4]
 
