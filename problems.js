@@ -30,4 +30,22 @@ console.log(reversed);
 console.log(count); 
 //Output will be 3
 
+   
+// Problem 3: Check for Palindrome
+
+  let str3 = "madam";
+  let revStr = "";
+
+ for (let i = str3.length - 1; i >= 0; i--) {
+  revStr = revStr + str3[i];
+ }
+
+  if (str3 === revStr) {
+    console.log(true);
+ } 
+   else {
+  console.log(false);
+}
+
+
 
