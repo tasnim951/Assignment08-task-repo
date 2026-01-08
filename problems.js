@@ -105,4 +105,18 @@ console.log(uniqueArr);
  console.log(evenNumbers);
   // Output will be :[2,4,6]
 
+// Problem 8: Capitalize Words
+
+  let sentence = "hello world";
+   let words = sentence.split(" ");
+   let newSentence = [];
+
+ for (let i = 0; i < words.length; i++) {
+    let word = words[i];
+    let capWord = word[0].toUpperCase() + word.slice(1);
+   newSentence.push(capWord);
+   }
+
+ console.log(newSentence.join(" ")); 
+ //Output will be : Hello World
 
