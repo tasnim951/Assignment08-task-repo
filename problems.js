@@ -12,3 +12,22 @@
 console.log(reversed); 
 //Output will be : olleh
 
+ 
+
+  // Problem 2: Count Vowels in a string
+
+   let str2 = "programming";
+   let vowels = "aeiou";
+  let count = 0;
+
+ for (let i = 0; i < str2.length; i++) {
+  let ch = str2[i].toLowerCase();
+  if (vowels.includes(ch)) {
+    count++;
+  }
+}
+
+console.log(count); 
+//Output will be 3
+
+
