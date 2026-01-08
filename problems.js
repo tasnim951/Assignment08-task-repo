@@ -105,7 +105,7 @@ console.log(uniqueArr);
  console.log(evenNumbers);
   // Output will be :[2,4,6]
 
-// Problem 8: Capitalize Words
+// Problem 8: Capitalize First Letter of Each Word
 
   let sentence = "hello world";
    let words = sentence.split(" ");
@@ -120,3 +120,16 @@ console.log(uniqueArr);
  console.log(newSentence.join(" ")); 
  //Output will be : Hello World
 
+
+// Problem 9: Find the Factorial of a Number
+
+  let num = 5;
+  let fact = 1;
+
+  for (let i = 1; i <= num; i++) {
+    fact = fact * i;
+    }
+
+console.log(fact); 
+
+//Output will be : 120
